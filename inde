@@ -1,18 +1,3 @@
-
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-48
-49
 <!doctype html>
 <html>
 <head>
@@ -63,10 +48,7 @@
 	
 	
   </section>
- <!DOCTYPE HTML>
- <head> </head>
- 
- <body>
+  
   <style>
  section { border: double medium; margin: 2em; }
  section.chapter h1 { font: 2em Roboto, Helvetica Neue, sans-serif; }
@@ -103,6 +85,5 @@
  <p>Hopefully this long example shows that you <em>can</em> style
  sections, so long as they are used to indicate actual sections.</p>
 </section>
-  
 </body>
 </html>
