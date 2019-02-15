@@ -1,0 +1,108 @@
+
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Links</title>
+</head>
+<body>
+  <header>
+      Lorem ipsum ...
+  </header>
+  <h1 id="top">Links to Sections of The Same Page</h1>
+  <section>
+    <ul>
+      <!-- Link to every section in the page -->
+      <li><a href="#section1">#section1</a></li>
+      <li><a href="#section2">#section2</a></li>
+      <li><a href="#section3">#section3</a></li>
+      <li><a href="#section4">#section4</a></li>
+      <li><a href="#section5">#section5</a></li>
+    </ul>
+  </section>
+
+  <section id="section1">
+    <h3>(#section1) Section 1</h3>
+    <p>Lorem ipsum ...</p>
+  </section>
+
+  <section id="section2">
+    <h3>(#section2) Section 2</h3>
+    <p>Lorem ipsum  <something here> ...</p>
+  </section>
+  <section id="section3">
+    <h3>(#section3) Section 3</h3>
+    <p>Lorem ipsum ...</p>
+  </section>
+  <section id="section4">
+    <h2>(#section4) Section 4</h2>
+    <p>Lorem ipsum ...</p>
+  </section>
+  <section id="section5">
+    <h2>(#section5) Section 5</h2>
+    <p>Lorem ipsum ...</p>
+    <p>
+      <a href="#top">Back to Page Heading</a> or
+      <a href="#">Back to Top of Page</a>    </p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+	
+	
+  </section>
+ <!DOCTYPE HTML>
+ <head> </head>
+ 
+ <body>
+  <style>
+ section { border: double medium; margin: 2em; }
+ section.chapter h1 { font: 2em Roboto, Helvetica Neue, sans-serif; }
+ section.appendix h1 { font: small-caps 2em Roboto, Helvetica Neue, sans-serif; }
+</style>
+<header>
+ <hgroup>
+  <h1>My Book</h1>
+  <h2>A sample with not much content</h2>
+ </hgroup>
+ <p><small>Published by Dummy Publicorp Ltd.</small></p>
+</header>
+<section class="chapter">
+ <h1>My First Chapter</h1>
+ <p>This is the first of my chapters. It doesn't say much.</p>
+ <p>But it has two paragraphs!</p>
+</section>
+<section class="chapter">
+ <h1>It Continues: The Second Chapter</h1>
+ <p>Bla dee bla, dee bla dee bla. Boom.</p>
+</section>
+<section class="chapter">
+ <h1>Chapter Three: A Further Example</h1>
+ <p>It's not like a battle between brightness and earthtones would go
+ unnoticed.</p>
+ <p>But it might ruin my story.</p>
+</section>
+<section class="appendix">
+ <h1>Appendix A: Overview of Examples</h1>
+ <p>These are demonstrations.</p>
+</section>
+<section class="appendix">
+ <h1>Appendix B: Some Closing Remarks</h1>
+ <p>Hopefully this long example shows that you <em>can</em> style
+ sections, so long as they are used to indicate actual sections.</p>
+</section>
+  
+</body>
+</html>
