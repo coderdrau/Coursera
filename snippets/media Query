@@ -1,0 +1,2 @@
+@media (min-wtidth:768) and (max-width:991px) {} (applies to screen no smaller than 768px and no larger than 991px) 
+@(max-width:767px) , (min-width:992)  (OR operator = ,)

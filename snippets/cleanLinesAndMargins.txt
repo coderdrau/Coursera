@@ -1,0 +1,6 @@
+<style>
+box-sizing: border-box; %size of elements including border
+margin: 0;overide html default
+padding: 0;overide html default
+
+ </style>
